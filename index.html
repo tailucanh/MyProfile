@@ -1,163 +1,238 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet"/>
 
-    <!-- <link rel="android-chrome" sizes="192x192" href="img/android-chrome-192x192.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png"> -->
-    <link rel="manifest" href="/site.webmanifest" />
-    <title>Smile</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div class="app" style="width: 100%">
-      <div class="card mg-10">
-        <div class="card__title">
-          <div class="card__title--img">
-            <img src="./icon.jpg" alt="" srcset="" />
-          </div>
-          <div class="card__title--name">
-            <h1>Lục Anh Tài</h1>
-            <div class="veri__check">
-              <i class="fas fa-check"></i>
-            </div>
-          </div>
-          <div class="card__title--description">
-            <p>Android Developer</p>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+
+  <link rel="manifest" href="/site.webmanifest" />
+  <title>My Profile</title>
+
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+  <div class="app" style="width: 100%">
+    <div class="card_1 mg-10">
+      <div class="card__title">
+        <div class="card__title--img">
+          <img src="/Images/avatar.png" alt="" srcset="" />
+        </div>
+        <div class="card__title--name">
+          <h1>Lục Anh Tài</h1>
+          <div class="veri__check">
+            <i class="fas fa-check"></i>
           </div>
         </div>
-        <div class="card__body mt-10">
-          <div class="row">
-            <div class="col col-lg-3 mt-10">
-              <div class="card__item">
-                <a href="https://www.facebook.com/lucanh.tai" target="_blank" class="card__link">
-                  <div class="link__icon">
-                    <i class="fab fa-facebook"></i>
-                  </div>
-                </a>
-              </div>
-            </div>
-            <div class="col col-lg-3 mt-10">
-              <div class="card__item">
-                <a href="https://www.instagram.com/lucanh18/" target="_blank" class="card__link">
-                  <div class="link__icon">
-                    <img class="img-insta" src="instagram.png" alt="insta">
-                  </div>
-                </a>
-              </div>
-            </div>
-            <div class="col col-lg-3 mt-10">
-              <div class="card__item">
-                <a href="https://www.tiktok.com/@taismile1504" target="_blank" class="card__link">
-                  <div class="link__icon">
-                    <i class="fab fa-tiktok"></i>
-                  </div>
-                </a>
-              </div>
-            </div>
-            <div class="col col-lg-3 mt-10">
-              <div class="card__item">
-                <a href="https://github.com/tailucanh" target="_blank" class="card__link">
-                  <div class="link__icon">
-                    <i class="fab fa-github"></i>
-                  </div>
-                </a>
-              </div>
-            </div>
-            <div class="col col-lg-3 mt-10">
-              <div class="card__item">
-                <a href="https://www.youtube.com/channel/UCy7sxcFG-eGIzcjbn3aYHdQ" target="_blank" class="card__link">
-                  <div class="link__icon">
-                    <i class="fab fa-youtube" style="color: red"></i>
-                  </div>
-                </a>
-              </div>
-            </div>
-            <div class="col col-lg-3 mt-10">
-              <div class="card__item">
-                <a href="https://www.linkedin.com/in/l%E1%BB%A5c-anh-t%C3%A0i-3265b4222/" target="_blank" class="card__link">
-                  <div class="link__icon">
-                    <i class="fab fa-linkedin-in"></i>
-                  </div>
-                </a>
-              </div>
-            </div>
-            <div class="col col-lg-3 mt-10">
-              <div class="card__item">
-                <a href="#" class="card__link">
-                  <div class="link__icon">
-                    <i class="fab fa-google" style="color: red"></i>
-                  </div>
-                </a>
-              </div>
-            </div>
-            <div class="col col-lg-3 mt-10">
-              <div class="card__item">
-                <a href="#" class="card__link">
-                  <div class="link__icon">
-                    <i class="fab fa-twitter"></i>
-                  </div>
-                </a>
-              </div>
-            </div>
-          </div>
+        <div class="card__title--description">
+          <p>Android Developer</p>
         </div>
-        <div class="toggle toggle__back">
-          <a href="#" onclick="to"><i class="fas fa-arrow-left"></i></a>
-        </div>
-        <div class="toggle toggle__theme">
-          <i class="fas fa-moon"></i>
-        </div>
-        <div class="button__list mt-10">
-          <div class="row">
-            <div class="col col-lg-6 mt-10">
-              <a href="#" target="_blank">
-                <div class="button button__message">
-                  <span> Nhắn Tin </span>
-                </div>
-              </a>
-            </div>
-            <div class="col col-lg-6 mt-10">
-              <a href="#" target="_blank">
-                <div class="button button__subscribe">
-                  <span> Theo Dõi </span>
-                </div>
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="card__footer mt-10">
-          <div class="footer__item">
-            <span>
-              <i class="fas fa-heart"></i>
-              457.5K
-            </span>
-          </div>
-          <div class="footer__item">
-            <span>
-              <i class="fa fa-comment"></i>
-              165.7K
-            </span>
-          </div>
-          <div class="footer__item">
-            <span>
-              <i class="fa fa-share"></i>
-              286.2K
-            </span>
-          </div>
+        <div class="card__title--content">
+          <p>` Trên bước đường thành công, không có dấu chân của kẻ lười biếng `</p>
         </div>
       </div>
-      <div class="music">
-        <audio autoplay>
-          <source src="music.mp3" />
-        </audio>
+      <div class="card__body mt-10">
+        <div class="row">
+          <div class="col col-lg-3 mt-10">
+            <div class="card__item">
+              <a href="https://www.facebook.com/lucanh.tai" target="_blank" class="card__link">
+                <div class="link__icon">
+                  <i class="fab fa-facebook"></i>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col col-lg-3 mt-10">
+            <div class="card__item">
+              <a href="https://www.instagram.com/lucanh18/" target="_blank" class="card__link">
+                <div class="link__icon">
+                  <img class="img-insta" src="/Images/instagram.png" alt="insta">
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col col-lg-3 mt-10">
+            <div class="card__item">
+              <a href="https://www.tiktok.com/@taismile1504" target="_blank" class="card__link">
+                <div class="link__icon">
+                  <i class="fab fa-tiktok"></i>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col col-lg-3 mt-10">
+            <div class="card__item">
+              <a href="https://github.com/tailucanh" target="_blank" class="card__link">
+                <div class="link__icon">
+                  <i class="fab fa-github"></i>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <div class="col col-lg-3 mt-10">
+            <div class="card__item">
+              <a href="https://www.linkedin.com/in/l%E1%BB%A5c-anh-t%C3%A0i-3265b4222/" target="_blank"
+                class="card__link">
+                <div class="link__icon">
+                  <i class="fab fa-linkedin-in"></i>
+                </div>
+              </a>
+            </div>
+          </div>
+
+         
+
+
+        </div>
+      </div>
+
+      <div class="toggle toggle__theme">
+        <i class="fas fa-moon"></i>
       </div>
     </div>
-    <script src="index.js"></script>
-  </body>
+
+    <div class="slider-container">
+      <div class="box__title">
+        <p>Poly Oder</p>
+        <img src="./Images/image_poly_oder/bee.png" alt="">
+      </div>
+
+      <div class="slider">
+        <div class="slides">
+          <div id="slides__1" class="slide">
+            <div class="box_slide_title">
+              <div class="box__content">
+                <h3>Ứng dụng quản lý quán cà phê <br> PolyOder</h3>
+                <p><span>PolyOder </span>là một ứng dụng được tạo ra nhằm đáp ứng nhu cầu quản lý kinh doanh các mô hình
+                  quán cà phê vừa và nhỏ, không quá phức tạp nhưng vẫn đầy đủ chức năng, thao tác đơn giản. Dữ liệu đồng bộ với nhau nên có thể sử dụng nhiều thiết bị cùng một lúc.</p>
+              </div>
+              <img src="./Images/image_poly_oder/img1.jpg" class="img__slider">
+            </div>
+            <a class="slide__prev" href="#slides__8" title="Next"></a>
+            <a class="slide__next" href="#slides__2" title="Next"></a>
+          </div>
+          <div id="slides__2" class="slide">
+            <div class="box_slide">
+              <h3>Đăng nhập, đăng kí</h3>
+              <dib class="box__img">
+                <img src="./Images/image_poly_oder/img2.jpg" class="img__slider_2">
+                <img src="./Images/image_poly_oder/img3.jpg" class="img__slider_2">
+                <img src="./Images/image_poly_oder/img4.jpg" class="img__slider_2">
+                <img src="./Images/image_poly_oder/img27.jpg" class="img__slider_2">
+              </dib>
+              <p>Có sự phân quyền rõ ràng giữa quản lý và nhân viên khi sử dụng, phương thức đăng kí đăng nhập dễ dàng
+                giúp người dùng tiết kiệm thời gian thao tác.</p>
+            </div>
+            <a class="slide__prev" href="#slides__1" title="Prev"></a>
+            <a class="slide__next" href="#slides__3" title="Next"></a>
+          </div>
+
+          <div id="slides__3" class="slide">
+            <div class="box_slide">
+              <h3>Giao diện chính</h3>
+              <dib class="box__img">
+                <img src="./Images/image_poly_oder/img5.jpg" class="img__slider_2">
+                <img src="./Images/image_poly_oder/img6.jpg" class="img__slider_2">
+                <img src="./Images/image_poly_oder/img7.jpg" class="img__slider_2">
+                <img src="./Images/image_poly_oder/img28.jpg" class="img__slider_2">
+              </dib>
+              <p>Giao diện chính đơn giản, đẹp mắt, dễ dàng thao tác qua lại và có sự phân quyền chức năng rõ ràng giữa
+                quản lý và nhân viên khi sử dụng. Trọng tâm là quản lí hoạt động bán hàng, sản phẩm cũng như thống kê
+                chi tiết về doanh thu.</p>
+            </div>
+            <a class="slide__prev" href="#slides__2" title="Prev"></a>
+            <a class="slide__next" href="#slides__4" title="Next"></a>
+          </div>
+
+          <div id="slides__4" class="slide">
+            <div class="box_slide">
+              <h3>Quản lý dữ liệu đầu vào</h3>
+              <dib class="box__img">
+                <img src="./Images/image_poly_oder/img29.jpg" class="img__slider_2">
+                <img src="./Images/image_poly_oder/img30.jpg" class="img__slider_2">
+                <img src="./Images/image_poly_oder/img31.jpg" class="img__slider_2">
+                <img src="./Images/image_poly_oder/img19.jpg" class="img__slider_2">
+              </dib>
+              <p>Quản lý thông tin từng đối tượng đầu vào. Người dùng dễ dàng thêm, sửa ,xóa từng đối tượng theo ý của bản thân.</p>
+            </div>
+            <a class="slide__prev" href="#slides__3" title="Prev"></a>
+            <a class="slide__next" href="#slides__5" title="Next"></a>
+          </div>
+
+          <div id="slides__5" class="slide">
+            <div class="box_slide">
+              <h3>Thông báo</h3>
+              <dib class="box__img">
+                <img src="./Images/image_poly_oder/img32.jpg" class="img__slider_2">
+                <img src="./Images/image_poly_oder/img33.jpg" class="img__slider_2">
+                <img src="./Images/image_poly_oder/img16.jpg" class="img__slider_2">
+                <img src="./Images/image_poly_oder/img17.jpg" class="img__slider_2">
+              </dib>
+              <p>Quản lý thông báo các vấn đề xảy ra khi sử dụng như kết nối mạng, dữ liệu đầu vào, phân quyền người dùng. Hiện thị rõ các thông báo chi tiết trong quá trình sử dụng ứng dụng.</p>
+            </div>
+            <a class="slide__prev" href="#slides__4" title="Prev"></a>
+            <a class="slide__next" href="#slides__6" title="Next"></a>
+          </div>
+
+          <div id="slides__6" class="slide">
+            <div class="box_slide">
+              <h3>Phương thức oder đơn giản</h3>
+              <dib class="box__img">
+                <img src="./Images/image_poly_oder/img21.jpg" class="img__slider_2">
+                <img src="./Images/image_poly_oder/img14.jpg" class="img__slider_2">
+                <img src="./Images/image_poly_oder/img20.jpg" class="img__slider_2">
+                <img src="./Images/image_poly_oder/img8.jpg" class="img__slider_2">
+              </dib>
+              <p>Đơn giản hóa thao tác tạo đơn hàng, giao diện đẹp mắt ,mượt mà, thông tin đơn đầy đủ rõ ràng.</p>
+            </div>
+            <a class="slide__prev" href="#slides__5" title="Prev"></a>
+            <a class="slide__next" href="#slides__7" title="Next"></a>
+          </div>
+
+          <div id="slides__7" class="slide">
+            <div class="box_slide">
+              <h3>Quản lý thông tin đơn hàng, sản phẩm, bàn...rõ ràng</h3>
+              <dib class="box__img">
+                <img src="./Images/image_poly_oder/img10.jpg" class="img__slider_2">
+                <img src="./Images/image_poly_oder/img22.jpg" class="img__slider_2">
+                <img src="./Images/image_poly_oder/img12.jpg" class="img__slider_2">
+                <img src="./Images/image_poly_oder/img15.jpg" class="img__slider_2">
+              </dib>
+              <p>Tạo danh sách hiển thị đối tượng, hiện chi tiết, phân loại, giúp người dùng tìm kiếm một cách dễ dàng theo những thông tin đặc điểm của đối tượng</p>
+            </div>
+            <a class="slide__prev" href="#slides__6" title="Prev"></a>
+            <a class="slide__next" href="#slides__8" title="Next"></a>
+          </div>
+
+
+          
+          <div id="slides__8" class="slide">
+            <div class="box_slide">
+              <h3>Thống kê chi tiết</h3>
+              <dib class="box__img">
+                <img src="./Images/image_poly_oder/img24.jpg" class="img__slider_2">
+                <img src="./Images/image_poly_oder/img13.jpg" class="img__slider_2">
+                <img src="./Images/image_poly_oder/img26.jpg" class="img__slider_2">
+                <img src="./Images/image_poly_oder/img11.jpg" class="img__slider_2">
+              </dib>
+              <p>Chức năng thống kê chi tiết, giúp người dùng dễ dàng tìm kiếm và thống kê theo từng khoảng thời gian nhất định, lọc ra sản phẩm bán chạy và tóm tắt hóa doanh thu từng năm, tháng bằng biểu đồ.</p>
+            </div>
+            <a class="slide__prev" href="#slides__7" title="Prev"></a>
+            <a class="slide__next" href="#slides__1" title="Prev"></a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+
+  <script src="./js/index.js"></script>
+  <script src="./js/index2.js"></script>
+</body>
+
 </html>
